@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: rgb(255, 129, 129);
+}
+
+.nav-logo {
+  width: 8%;
+  left: 0px;
+  display: flex;
+  margin: 5px;
+}
+
+.navContainer {
+  border-color: black;
+  border-style: solid;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-width: 2px;
+  display: block;
+}
+
+.welcome {
+  color: white;
+  font-size: 0.5in;
+  text-align: center;
+  justify-content: center;
+  transition-duration: .7s;
+}
+
+.welcome:hover {
+  color: blue;
+  transition-duration: .7s;
+}
+
+.welcomeBox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  word-spacing: 0px;
+}
